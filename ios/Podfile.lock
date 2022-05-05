@@ -209,7 +209,7 @@ PODS:
   - nanopb/encode (0.3.9011)
   - OneSignal (2.13.1)
   - PromisesObjC (1.2.12)
-  - Protobuf (3.20.1)
+  - Protobuf (3.20.0)
   - RCTRestart (0.0.13):
     - React
   - React (0.60.5):
@@ -588,7 +588,7 @@ SPEC CHECKSUMS:
   nanopb: 18003b5e52dab79db540fe93fe9579f399bd1ccd
   OneSignal: fa98eaa90372bb367b6a4a1c1622ffb9832c7600
   PromisesObjC: 3113f7f76903778cf4a0586bd1ab89329a0b7b97
-  Protobuf: b60ec2f51ad74765f44d0c09d2e0579d7de21745
+  Protobuf: 66e2f3b26a35e4cc379831f4ced538274ee4b923
   RCTRestart: e8e3868a71dbec2cf8055fc2c0635db23c8c4479
   React: 53c53c4d99097af47cf60594b8706b4e3321e722
   React-Core: ba421f6b4f4cbe2fb17c0b6fc675f87622e78a64
@@ -634,4 +634,4 @@ SPEC CHECKSUMS:
 
 PODFILE CHECKSUM: 563eea446c0fbfc09048405e73991e564b12c516
 
-COCOAPODS: 1.10.2
+COCOAPODS: 1.11.3
