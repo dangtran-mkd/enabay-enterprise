@@ -30,7 +30,6 @@
     "react-native": "0.60.5",
     "react-native-awesome-card-io": "^0.8.2",
     "react-native-barcode-mask": "^1.1.0",
-    "react-native-braintree-payments-drop-in": "^1.0.5",
     "react-native-camera": "^3.9.0",
     "react-native-device-info": "^8.1.4",
     "react-native-fabric": "0.5.0",
