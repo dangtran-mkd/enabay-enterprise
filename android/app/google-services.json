@@ -1,96 +1,42 @@
 {
   "project_info": {
-    "project_number": "643730520187",
-    "firebase_url": "https://rn-simicart-test.firebaseio.com",
-    "project_id": "rn-simicart-test",
-    "storage_bucket": "rn-simicart-test.appspot.com"
+    "project_number": "1075021445299",
+    "project_id": "enabay-standard",
+    "storage_bucket": "enabay-standard.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:643730520187:android:de1221de2e586c71",
+        "mobilesdk_app_id": "1:1075021445299:android:a2016c1b5633e3a507d8c6",
         "android_client_info": {
-          "package_name": "com.simicart"
+          "package_name": "com.enabay.standard"
         }
       },
       "oauth_client": [
         {
-          "client_id": "643730520187-arocf5scdvp2atl84evull4h1j6f4jbo.apps.googleusercontent.com",
+          "client_id": "1075021445299-096rumjbvj4sgp4ouaie38c2ibg9b4uj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.enabay.standard",
+            "certificate_hash": "8d7ba0cb6e24b8f68605bdd9d62238a373a20764"
+          }
+        },
+        {
+          "client_id": "1075021445299-99204g3tplfcflbip0r5h35rhlcm148b.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyBYtJUwzjFMM_cLloZxv-LKxCZfXSJxPSY"
+          "current_key": "AIzaSyBIUfJCZuBF2iXMoRDFFqjBe5boTHO1IAw"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "643730520187-ftmr7h6ni80u2ll93h4s8lvd5vc4rc40.apps.googleusercontent.com",
+              "client_id": "1075021445299-99204g3tplfcflbip0r5h35rhlcm148b.apps.googleusercontent.com",
               "client_type": 3
-            },
-            {
-              "client_id": "643730520187-ujkrtqnfdflbpfa7andscm9igaiima9g.apps.googleusercontent.com",
-              "client_type": 2,
-              "ios_info": {
-                "bundle_id": "com.simicart.Max",
-                "app_store_id": "123456789"
-              }
-            }
-          ]
-        }
-      }
-    },
-    {
-      "client_info": {
-        "mobilesdk_app_id": "1:643730520187:android:a53d234bb6a1493d",
-        "android_client_info": {
-          "package_name": "com.simicart.enterprise"
-        }
-      },
-      "oauth_client": [
-        {
-          "client_id": "643730520187-ebr7og9sj6svnrd9ifej0dsrfbisk8im.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.simicart.enterprise",
-            "certificate_hash": "1d4f15f97f78e1f1331b99e898c996c3739a094b"
-          }
-        },
-        {
-          "client_id": "643730520187-9jsu3phtrjnli73oppajclqce7asdg0r.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.simicart.enterprise",
-            "certificate_hash": "50e72df3b17a641cd7ceaf9e87ead0df379c9ca9"
-          }
-        },
-        {
-          "client_id": "643730520187-arocf5scdvp2atl84evull4h1j6f4jbo.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
-      "api_key": [
-        {
-          "current_key": "AIzaSyBYtJUwzjFMM_cLloZxv-LKxCZfXSJxPSY"
-        }
-      ],
-      "services": {
-        "appinvite_service": {
-          "other_platform_oauth_client": [
-            {
-              "client_id": "643730520187-ftmr7h6ni80u2ll93h4s8lvd5vc4rc40.apps.googleusercontent.com",
-              "client_type": 3
-            },
-            {
-              "client_id": "643730520187-ujkrtqnfdflbpfa7andscm9igaiima9g.apps.googleusercontent.com",
-              "client_type": 2,
-              "ios_info": {
-                "bundle_id": "com.simicart.Max",
-                "app_store_id": "123456789"
-              }
             }
           ]
         }

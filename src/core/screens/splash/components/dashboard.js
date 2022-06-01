@@ -31,6 +31,26 @@ class Dashboard extends React.Component {
     }
 
     saveAppConfig(data, shouldSaveToStorage = true) {
+        data['app-configs'][0]['site_plugins'] = [
+            {config: {enable: "1", config_values: "{'default':{'mobile_platform':'1'}}"}, sku: "simi_simicontact_40"},
+            {config: {enable: "1", config_values: ""}, sku: "simi_appwishlist_40"},
+            {config: {enable: "1", config_values: ""}, sku: "simi_simibarcode_40"},
+            {config: {enable: "1", config_values: ""}, sku: "magestore_productlabel_40"},
+            {config: {enable: "1", config_values: ""}, sku: "simi_simivideo_40"},
+            {config: {enable: "1", config_values: ""}, sku: "simi_paypalexpress_40"},
+            {config: {enable: "1", config_values: ""}, sku: "checkout_management_40"},
+            {config: {enable: "1", config_values: "{'default':{'mobile_platform':'1'}}"}, sku: "simi_simimixpanel_40"},
+            {config: {enable: "1", config_values: ""}, sku: "simi_simiproductreview_40"},
+            {config: {enable: "1", config_values: ""}, sku: "simi_simisocialshare_40"},
+            {config: {enable: "1", config_values: ""}, sku: "simi_simicouponcode_40"},
+            {config: {enable: "1", config_values: ""}, sku: "simi_searchvoice_40"},
+            {config: {enable: "1", config_values: "{'default':{'facebook_key':'1231231231','facebook_name':','mobile_platform':'1'}}"}, sku: "simi_fblogin_40"},
+            {config: {enable: "1", config_values: "{'default':{'mobile_platform':'1'}}"}, sku: "magestore_storelocator_40"},
+            {config: {enable: "1", config_values: ""}, sku: "simi_addressautofill_40"},
+            {config: {enable: "1", config_values: ""}, sku: "simi_simibraintree_40"},
+            {config: {enable: "1", config_values: "{'default':{'image_search_key':'22222ssss','mobile_platform':'1'}}"}, sku: "simi_simisearchbyimage_40"}
+        ]
+
         Identify.setAppConfig(data['app-configs'][0]);
 
         Layout.plugins = data['app-configs'][0]['site_plugins'] || [];

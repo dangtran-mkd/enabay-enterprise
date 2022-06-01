@@ -43,7 +43,7 @@ export default class App extends React.Component {
         this.router = null;
         this.requestedRegisterDevice = false;
 
-        OneSignal.init("ONESIGNAL");
+        OneSignal.init("6d8f5f9f-8960-4ac8-9086-5121b32e700f");
         OneSignal.addEventListener('received', this.onReceived);
         OneSignal.addEventListener('opened', this.onOpened);
         OneSignal.addEventListener('ids', this.onIds);

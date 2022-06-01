@@ -1,4 +1,4 @@
-package com.simicart;
+package com.enabay.standard;
 
 import android.content.Intent;
 import android.os.Bundle;

@@ -1,6 +1,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.simicart">
+    package="com.enabay.standard">
     
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
@@ -8,8 +8,8 @@
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
     <uses-permission android:name="android.permission.CAMERA" />
-    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
-<uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/><uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+
 
     
     <application
@@ -44,8 +44,8 @@
                 
                 <category android:name="android.intent.category.DEFAULT" />
                 <category android:name="android.intent.category.BROWSABLE" />
-                <data android:host="magento243.ehub.hk" android:scheme="http"/>
-                <data android:host="magento243.ehub.hk" android:scheme="https"/>
+                <data android:host="enterprise4demo.ehub.hk" android:scheme="http"/>
+                <data android:host="enterprise4demo.ehub.hk" android:scheme="https"/>
             </intent-filter>
         </activity>
         <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
