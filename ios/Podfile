@@ -9,6 +9,10 @@ target 'SimiCart' do
     'BarcodeDetectorMLKit'
   ]
 
+  permissions_path = '../node_modules/react-native-permissions/ios'
+  pod 'Permission-LocationAlways', :path => "#{permissions_path}/LocationAlways.podspec"
+  pod 'Permission-LocationWhenInUse', :path => "#{permissions_path}/LocationWhenInUse.podspec"
+
   pod 'React', :path => '../node_modules/react-native/'
     pod 'React-Core', :path => '../node_modules/react-native/React'
     pod 'React-DevSupport', :path => '../node_modules/react-native/React'
